@@ -1,4 +1,4 @@
-#House-Cleaning-Mobile-Application
+# House Cleaning Mobile Application
 
 This is a school project for a subject named Mobile Application Development.
 Android studio and Java was taught and used to develop this application.
