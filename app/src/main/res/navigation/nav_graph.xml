@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/First_Step">
+
+    <fragment
+        android:id="@+id/First_Step"
+        android:name="com.ebookfrenzy.project.First_Step"
+        android:label="@string/first_step_label"
+        tools:layout="@layout/activity_first_step">
+
+        <action
+            android:id="@+id/action_First_Step_to_Second_Step"
+            app:destination="@id/Second_Step" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second_Step"
+        android:name="com.ebookfrenzy.project.Second_Step"
+        android:label="@string/second_step_label"
+        tools:layout="@layout/activity_second_step">
+
+        <action
+            android:id="@+id/action_Second_Step_to_Home_Activity"
+            app:destination="@id/Home_Activity" />
+    </fragment>
+
+</navigation>
